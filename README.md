@@ -184,7 +184,7 @@ CREATE TABLE scores (
 │   ├── .streamlit/config.toml
 │   ├── Dockerfile
 │   └── requirements.txt
-├── postgres/init.sql          # создание витрины scores
+├── postgres/                  # образ PostgreSQL + init.sql (создание витрины scores)
 ├── training/                  # офлайн-обучение модели (вне контейнеров)
 │   ├── train.py
 │   └── requirements.txt
