@@ -1,0 +1,5 @@
+[server]
+maxUploadSize = 500  # Максимальный размер файла в MB
+
+[browser]
+gatherUsageStats = false

@@ -1,0 +1,41 @@
+{
+  "threshold": 0.8175942237235286,
+  "features": [
+    "gender",
+    "merch",
+    "cat_id",
+    "one_city",
+    "us_state",
+    "jobs",
+    "amount",
+    "amount_log",
+    "hour",
+    "day_of_week",
+    "day_of_month",
+    "month",
+    "is_night",
+    "distance_km",
+    "population_log",
+    "client_txn_count",
+    "client_amount_mean",
+    "client_amount_std",
+    "amount_to_client_mean",
+    "amount_client_zscore",
+    "cat_amount_mean",
+    "amount_to_cat_mean"
+  ],
+  "cat_features": [
+    "gender",
+    "merch",
+    "cat_id",
+    "one_city",
+    "us_state",
+    "jobs"
+  ],
+  "metrics": {
+    "val_roc_auc": 0.99835,
+    "val_f1": 0.85595,
+    "val_precision": 0.92298,
+    "val_recall": 0.798
+  }
+}
